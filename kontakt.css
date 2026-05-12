@@ -1,0 +1,238 @@
+@media only screen and (min-width: 1701px){
+    .mainkontakt{
+        margin:3%;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        text-align: center;
+    }
+    .centrala{
+        grid-column: 2;
+    }
+    .sidlo{
+        border-left: solid 5px #DC143C;
+        border-right: solid 5px #DC143C;
+        grid-column: 3;
+    }
+    .linka{
+        grid-column: 4;
+    }
+    .obsah{
+        font-size: 13px;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .obsahnazev{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 0.8;
+        color: #004fac;
+    }
+    .nazev{
+        padding-bottom: 15px;
+        font-size: 20px;
+        color: #DC143C;
+        font-weight: bold;
+    }
+    .telefon{
+        color: #004fac;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .managment{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 3%;
+    }
+    .managmentcontent{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .contaktall{
+        margin: 2%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 100%;
+    }
+    .contakt1{
+    grid-column: 1;
+    grid-row: 1;
+    }
+    .contakt2{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .contakt3{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .contakt4{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .contakt5{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .contakt6{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .managertext{
+    grid-column: 1;
+    grid-row: 1;
+    }
+    .managerimg{
+        grid-column: 2;
+        grid-row: 1;
+        width: 160px;
+        height: 150px;
+    }
+    .pozicenazev{
+        font-size: 25px;
+        color: #004fac;
+        font-weight: bold;
+    }
+    .jmenomanager{
+        margin-top: 10px;
+        font-size: 20px;
+        color: #004fac;
+    }
+    .Bignazev{
+        font-size: 35px;
+        font-weight: bold;
+        color: #004fac;
+        border-bottom: solid 5px #DC143C;
+        text-align: center;
+        margin-bottom: 3%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .managermail{
+        margin-top: 6%;
+        font-size: 15px;
+        color: rgb(134, 134, 134);
+    }
+    .managertel{
+        margin-top: 1%;
+        font-size: 15px;
+        color: rgb(134, 134, 134);
+    }
+}
+@media only screen and (max-width: 1700px){
+    .mainkontakt{
+        margin:3%;
+        display: grid;
+        grid-template-columns: repeat(5,20%);
+        text-align: center;
+    }
+    .centrala{
+        grid-column: 2;
+    }
+    .sidlo{
+        border-left: solid 5px #DC143C;
+        border-right: solid 5px #DC143C;
+        grid-column: 3;
+    }
+    .linka{
+        grid-column: 4;
+    }
+    .obsah{
+        font-size: 13px;
+        line-height: 0.8;
+        color: rgb(134, 134, 134);
+    }
+    .obsahnazev{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 0.8;
+        color: #004fac;
+    }
+    .nazev{
+        padding-bottom: 15px;
+        font-size: 20px;
+        color: #DC143C;
+        font-weight: bold;
+    }
+    .telefon{
+        color: #004fac;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .managment{
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 3%;
+    }
+    .contaktall{
+        margin: 2%;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 100%;
+    }
+    .contakt1{
+    grid-column: 1;
+    grid-row: 1;
+    }
+    .contakt2{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .contakt3{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .contakt4{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .contakt5{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .contakt6{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .managertext{
+    grid-column: 1;
+    grid-row: 1;
+    }
+    .managerimg{
+        grid-column: 2;
+        grid-row: 1;
+        width: 160px;
+        height: 150px;
+    }
+    .pozicenazev{
+        font-size: 25px;
+        color: #004fac;
+        font-weight: bold;
+    }
+    .jmenomanager{
+        margin-top: 10px;
+        font-size: 20px;
+        color: #004fac;
+    }
+    .Bignazev{
+        font-size: 35px;
+        font-weight: bold;
+        color: #004fac;
+        border-bottom: solid 5px #DC143C;
+        text-align: center;
+        margin-bottom: 3%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .managermail{
+        margin-top: 6%;
+        font-size: 15px;
+        color: rgb(134, 134, 134);
+    }
+    .managertel{
+        margin-top: 1%;
+        font-size: 15px;
+        color: rgb(134, 134, 134);
+    }
+}
+

@@ -1,0 +1,146 @@
+@media only screen and (min-width: 1301px){
+    .sek1{
+        margin-left: 10%;
+        margin-right: 10%;
+        border:rgb(199, 199, 199) solid 1px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        box-shadow: 15px 20px 25px #b8b6b6;
+        margin-bottom: 60px;
+        background-color: white;
+    }
+    .sek2{
+        margin-left: 10%;
+        margin-right: 10%;
+        border:rgb(199, 199, 199) solid 1px;
+        display: grid;
+        grid-template-columns: 35% 65%;
+        box-shadow: 15px 20px 25px #b8b6b6;
+        margin-bottom: 60px;
+    }
+    .pob1{
+        margin-top: 3%;
+        grid-column: 1;
+        margin-left: 3%;
+    }
+    .pob2{
+        margin-top: 3%;
+        grid-column: 2;
+        margin-left: 3%;
+    }
+    .pobocka{
+        font-size: 15px;
+      
+    }
+    .container{
+        background-color: rgba(243, 244, 246, 1); 
+        padding-top: 50px;
+        padding-bottom: 1px;
+    }
+    .containerwhite{
+        background-color: white; 
+        padding-top: 50px;
+        padding-bottom: 1px;
+    }
+    .PobockaNazev{
+        text-decoration: none;
+    }
+    .pobockaObrazek1{
+        width: 500px;
+        height: auto;
+        grid-column: 2;
+        border-right: #DC143C solid 33px;
+    }
+    .pobockaObrazek2{
+        width: 500px;
+        height: auto;
+        grid-column: 1;
+        border-left: #DC143C solid 33px;
+    }
+    .PobockaHEad{
+        font-size: 35px;
+        font-weight: bold;
+        color: #004fac;
+    }
+    .pobockaadresa{
+        margin-top: 1%;
+        font-size: 25px;
+        color: #004fac;
+    }
+    .pobockainfo{
+        font-size: 17px;
+        margin-top: 2%;
+        line-height: 1.4;
+        color: rgb(134, 134, 134);
+    }
+}
+@media only screen and (max-width: 1300px){
+    .sek1{
+        margin-left: 10%;
+        margin-right: 10%;
+        border:rgb(199, 199, 199) solid 1px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        box-shadow: 15px 20px 25px #b8b6b6;
+        margin-bottom: 60px;
+        background-color: white;
+    }
+    .sek2{
+        margin-left: 10%;
+        margin-right: 10%;
+        border:rgb(199, 199, 199) solid 1px;
+        box-shadow: 15px 20px 25px #b8b6b6;
+        margin-bottom: 60px;
+    }
+    .pob1{
+        margin-top: 3%;
+        grid-column: 1;
+        margin-left: 3%;
+    }
+    .pob2{
+        margin-top: 3%;
+        grid-column: 2;
+        margin-left: 3%;
+    }
+    .pobocka{
+        font-size: 15px;
+      
+    }
+    .container{
+        background-color: rgba(243, 244, 246, 1); 
+        padding-top: 50px;
+        padding-bottom: 1px;
+    }
+    .containerwhite{
+        background-color: white; 
+        padding-top: 50px;
+        padding-bottom: 1px;
+    }
+    .PobockaNazev{
+        text-decoration: none;
+    }
+    .pobockaObrazek1{
+        display: none;
+    }
+    .pobockaObrazek2{
+        display: none;
+    }
+    .PobockaHEad{
+        font-size: 35px;
+        font-weight: bold;
+        color: #004fac;
+    }
+    .pobockaadresa{
+        margin-top: 1%;
+        font-size: 25px;
+        color: #004fac;
+    }
+    .pobockainfo{
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        line-height: 1.4;
+        color: rgb(134, 134, 134);
+    }
+}
+

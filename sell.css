@@ -1,0 +1,296 @@
+@media only screen and (min-width: 801px){
+    .hidden {
+        display: none;
+    }
+    .prodatform{
+        background-color: #f0eded91;
+        border: solid 1px #B8B5B5;
+        border-radius: 20px;
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .zakaznikform{
+        background-color: #f0eded91;
+        border: solid 1px #B8B5B5;
+        border-radius: 20px;
+        padding: 3%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .formLeft{
+        grid-column: 1;
+        margin-right: 2%;
+    }
+    .formRight{
+     grid-column: 2;
+     margin-left: 2%;
+    }
+    .PopisFull{
+        grid-column: 1 / span 2;
+    }
+    .Nextform{
+        grid-column: 1 / span 2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        color: #004fac;
+        font-size: 20px;
+    }
+    .a{
+        text-align: center;
+    }
+    .kontaktnext{
+        text-decoration: none;
+        font-size: 15px;
+        color: #004fac;
+        font-size: 20px;
+    }
+    textarea {
+        resize: vertical;
+     }
+     input{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+       
+     }
+     label{
+        margin-top: 10px;
+        color: #004fac;
+     }
+     select{
+        width: 100%;
+        box-sizing: border-box;    
+        font-size: 23px;
+        color: #004fac;
+     }
+    .sellcontent{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .sellpictures{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    
+    }
+    .picInfoOFF{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: rgb(134, 134, 134);
+    }
+    .picInfoON{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: #004fac;
+    }
+    .picInfoOFFafter{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: #004fac;
+        opacity: 0.5;
+    }
+    .complete{
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 140px;
+    }
+    .CompleteHead{
+        text-align: center;
+        font-size: 40px;
+        color: #004fac;
+        font-weight: bold;
+        
+    }
+    .mage{
+        margin-bottom: 5px;
+        display: block;
+        margin-left: 45%;
+        margin-right: auto;
+    }
+    .Cempletesmall{
+        text-align: center;
+        color: rgb(134, 134, 134);
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .houm{
+        text-decoration: none;
+        font-size: 20PX;
+        border: solid #004fac 1PX;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: white;
+        background-color: #004fac;
+        border-radius: 10px;
+       }
+       .houm:hover{
+        border: solid #003c80 1px;
+        background-color: #003c80;
+       }
+       .butt{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+       }
+}
+@media only screen and (max-width: 800px){
+    .hidden {
+        display: none;
+    }
+    .prodatform{
+        background-color: #f0eded91;
+        border: solid 1px #B8B5B5;
+        border-radius: 20px;
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .zakaznikform{
+        background-color: #f0eded91;
+        border: solid 1px #B8B5B5;
+        border-radius: 20px;
+        padding: 3%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .formLeft{
+        grid-column: 1;
+        margin-right: 2%;
+    }
+    .formRight{
+     grid-column: 2;
+     margin-left: 2%;
+    }
+    .PopisFull{
+        grid-column: 1 / span 2;
+    }
+    .Nextform{
+        grid-column: 1 / span 2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        color: #004fac;
+        font-size: 20px;
+    }
+    .a{
+        text-align: center;
+    }
+    .kontaktnext{
+        text-decoration: none;
+        font-size: 15px;
+        color: #004fac;
+        font-size: 20px;
+    }
+    textarea {
+        resize: vertical;
+     }
+     input{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+       
+     }
+     label{
+        margin-top: 10px;
+        color: #004fac;
+     }
+     select{
+        width: 100%;
+        box-sizing: border-box;    
+        font-size: 23px;
+        color: #004fac;
+     }
+    .sellcontent{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .sellpictures{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    
+    }
+    .picInfoOFF{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: rgb(134, 134, 134);
+    }
+    .picInfoON{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: #004fac;
+    }
+    .picInfoOFFafter{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        color: #004fac;
+        opacity: 0.5;
+    }
+    .complete{
+        margin-top: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 140px;
+    }
+    .CompleteHead{
+        text-align: center;
+        font-size: 40px;
+        color: #004fac;
+        font-weight: bold;
+        
+    }
+    .mage{
+        margin-bottom: 5px;
+        display: block;
+        margin-left: 45%;
+        margin-right: auto;
+    }
+    .Cempletesmall{
+        text-align: center;
+        color: rgb(134, 134, 134);
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .houm{
+        text-decoration: none;
+        font-size: 20PX;
+        border: solid #004fac 1PX;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: white;
+        background-color: #004fac;
+        border-radius: 10px;
+       }
+       .houm:hover{
+        border: solid #003c80 1px;
+        background-color: #003c80;
+       }
+       .butt{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+       }
+}

@@ -1,0 +1,981 @@
+@media only screen and (min-width: 801px){
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.logo{
+  width: 150;
+  height: auto;
+}
+.amalickost{
+  margin-right: 100%;
+}
+.navBar{
+display: flex;
+justify-content: right;
+color: #ff0000;
+}
+.odkaz{
+   text-decoration: none;
+    padding-top: 26px;
+    font-size: larger;
+    padding-left: 50px;
+    color: #004fac;
+
+}
+.odkaz:hover{
+  color: #DC143C;
+}
+header{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+}
+.Homepg{
+    background-image: url('images/HomePage.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+
+}
+.fortpageTop{
+    padding: 10px;
+    margin-right: 70%;
+    border: solid 1px;
+    border-color: rgb(0, 79, 172);
+    background-color: #004fac;
+    text-align: left;
+    color: #FAF9F6;
+    font-size: 60px;
+    
+    
+}
+.fortpageBottom{
+    padding: 10px;
+    margin-right: 45%;
+    border: solid 1px;
+    border-color: #DC143C;
+    background-color: #DC143C;
+    text-align: left;
+    color: white;
+    font-size: 60px;
+}
+.numbersWhole{
+    display: flex;
+    justify-content: center;
+
+}
+.numbersItems{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: solid  2px;
+    border-color: rgb(199, 199, 199);
+    text-align: center; 
+}
+.numbersText{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.numbersHeader{
+    color: #DC143C;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.numbersParag{
+    font-size: 25px;
+    color: #004fac;
+}
+.foryou{
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  
+}
+.foryouheader{
+  padding: 3px;
+  margin-left: 5%;
+  margin-right: 70%;
+  background-color: #DC143C;
+  color: white;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.odkazek{
+  text-decoration: none;
+}
+.cardfull{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.fullbutton{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #DC143C;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #DC143C;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+ .aboutus{
+
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns:11% 45% 2% 41% 11%;
+  grid-template-rows: 100%;
+  background-color: #004fac;
+  border-top: solid 20px #006ce7;
+  border-bottom: solid 20px #006ce7;
+ }
+ .aboutustext{
+  margin-top: 2%;
+  grid-column: 2;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  color: white;
+ 
+
+ }
+.pragraficek{
+  line-height: 28px;
+ }
+ .aboutusImg{
+  grid-column: 4;
+ }
+ .aboutusheader{
+  margin-right: 70%;
+  border-bottom: 3px white solid;
+  grid-column: 2;
+  color: #FAF9F6;
+  font-size: 40px;
+ }
+ .userrew {
+  background-color: rgba(243, 244, 246, 1);
+  padding: 2rem;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.5);
+}
+
+.user{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  background-color: #f0eded;
+}
+.userreveneu
+{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+.userheader {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.userheader .image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  background-color: #004fac;
+
+}
+
+
+.name {
+  margin-top: 0.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, 1);
+}
+
+.message {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-top: 1rem;
+  color: rgba(107, 114, 128, 1);
+}
+.userhedlaner{
+  font-size: 32px;
+  color: white;
+  background-color: #DC143C;
+  margin-right: 65%;
+  padding: 4px;
+}
+.award{
+  padding-top: 2%;
+  display: grid;
+  grid-template-columns:5% 45% 45% 5% ;
+  grid-template-rows: 10% 90%;
+}
+.picmak{
+  width: 300px;
+  height: 425px;
+}
+.picmak2{
+  width: 300px;
+  height: 425px;
+}
+.awardmakler{
+  padding-right: 2%;
+  grid-column: 2;
+  grid-row: 2;
+}
+.maklerkontent{
+  display: flex;
+  justify-content: right;
+}
+.maklertext{
+  margin-top: 15%;
+  padding: 2%;
+}
+.maklername{
+  font-size: 30px;
+  padding: 4px;
+  padding-right: 15px;
+  background-color: #004fac;
+  color: white;
+}
+.maklerBighead{
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  font-size: 40px;
+  color: white;
+  background-color: #DC143C;
+    margin-right: 80%;
+  padding: 1px;
+}
+.maklertit{
+padding: 5px;
+background-color: #DC143C;
+color: white;
+margin-right: 15%;
+}
+.awardkancl{
+  grid-column: 3;
+  grid-row: 2;
+}
+.kanclname{
+  font-size: 30px;
+  padding: 4px;
+  padding-right: 15px;
+  background-color: #004fac;
+  color: white;
+}
+.kancltit{
+  padding: 5px;
+  background-color: #DC143C;
+  color: white;
+  margin-right: 13%;
+
+  
+}
+.kanclkontent{
+  display: flex;
+  justify-content: left;
+}
+.kancltext{
+  
+  margin-left: 3%;
+  margin-top: 14%;
+  padding: 2%;
+}
+footer{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: #004fac;
+  border-top: #006ce7 20px solid;
+  color: rgb(255, 255, 255);
+}
+.kontakty{
+grid-column: 2;
+margin-left: 20%;
+}
+.navigcka{
+  grid-column: 3;
+  margin-left: 20%;
+}
+.socky{
+  grid-column: 4;
+  margin-left: 20%;
+}
+.coprhgt{
+  padding: 5px;
+  background-color: #006ce7;
+  font-size: 16px;
+
+  text-align: center;
+  grid-column: 1 / span 5;
+}
+.footerNadpis{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 25px;
+
+}
+.fotodkazicek{
+  line-height: 1.5;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.fotodkazicek:hover{
+ text-decoration: underline;
+}
+.kotaktyveci{
+
+  line-height: 1.3;
+  margin-bottom: 3%;
+}
+.aodkaz{
+  color: white;
+  
+}
+
+}
+@media only screen and (max-width: 800px){
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+.logo{
+  width: 150;
+  height: auto;
+}
+.amalickost{
+  margin-right: 100%;
+}
+.navBar{
+display: flex;
+justify-content: right;
+color: #ff0000;
+}
+.odkaz{
+   text-decoration: none;
+    padding-top: 26px;
+    font-size: 19px;
+    padding-left: 50px;
+    color: #004fac;
+
+}
+.odkaz:hover{
+  color: #DC143C;
+}
+header{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+}
+.Homepg{
+    background-image: url('images/HomePage.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+
+}
+.fortpageTop{
+    display: none;
+    
+    
+}
+.fortpageBottom{
+    display: none;
+}
+.numbersWhole{
+    display: flex;
+    justify-content: center;
+
+}
+.numbersItems{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: solid  2px;
+    border-color: rgb(199, 199, 199);
+    text-align: center; 
+}
+.numbersText{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.numbersHeader{
+    color: #DC143C;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.numbersParag{
+    font-size: 15px;
+    color: #004fac;
+}
+.foryou{
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.foryouheader{
+  padding: 3px;
+  margin-left: 5%;
+  margin-right: 58%;
+  background-color: #DC143C;
+  color: white;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.card {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 10px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 0;
+  font-size: 6px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.odkazek{
+  text-decoration: none;
+}
+.cardfull{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.fullbutton{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #DC143C;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #DC143C;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+ .aboutus{
+ display: none;
+ }
+ .aboutustext{
+  margin-top: 2%;
+  grid-column: 2;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  color: white;
+ 
+
+ }
+.pragraficek{
+  line-height: 28px;
+ }
+ .aboutusImg{
+  grid-column: 4;
+ }
+ .aboutusheader{
+  margin-right: 70%;
+  border-bottom: 3px white solid;
+  grid-column: 2;
+  color: #FAF9F6;
+  font-size: 40px;
+ }
+ .userrew {
+  background-color: rgba(243, 244, 246, 1);
+  padding: 2rem;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px -20px rgba(5, 5, 5, 0.5);
+  margin-bottom: 15px;
+}
+
+.user{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  background-color: #f0eded;
+}
+.userreveneu
+{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+.userheader {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.userheader .image {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 9999px;
+  object-fit: cover;
+  background-color: #004fac;
+
+}
+
+
+.name {
+  margin-top: 0.25rem;
+  font-size: 15px;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, 1);
+}
+
+.message {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-top: 1rem;
+  color: rgba(107, 114, 128, 1);
+  font-size: 13px;
+}
+.userhedlaner{
+  font-size: 17px;
+  color: white;
+  background-color: #DC143C;
+  margin-right: 45%;
+  padding: 4px;
+}
+.award{
+  display: none;
+}
+.picmak{
+  width: 300px;
+  height: 425px;
+}
+.picmak2{
+  width: 300px;
+  height: 425px;
+}
+.awardmakler{
+  padding-right: 2%;
+  grid-column: 2;
+  grid-row: 2;
+}
+.maklerkontent{
+  display: flex;
+  justify-content: right;
+}
+.maklertext{
+  margin-top: 15%;
+  padding: 2%;
+}
+.maklername{
+  font-size: 30px;
+  padding: 4px;
+  padding-right: 15px;
+  background-color: #004fac;
+  color: white;
+}
+.maklerBighead{
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  font-size: 40px;
+  color: white;
+  background-color: #DC143C;
+    margin-right: 80%;
+  padding: 1px;
+}
+.maklertit{
+padding: 5px;
+background-color: #DC143C;
+color: white;
+margin-right: 15%;
+}
+.awardkancl{
+  grid-column: 3;
+  grid-row: 2;
+}
+.kanclname{
+  font-size: 30px;
+  padding: 4px;
+  padding-right: 15px;
+  background-color: #004fac;
+  color: white;
+}
+.kancltit{
+  padding: 5px;
+  background-color: #DC143C;
+  color: white;
+  margin-right: 13%;
+
+  
+}
+.kanclkontent{
+  display: flex;
+  justify-content: left;
+}
+.kancltext{
+  
+  margin-left: 3%;
+  margin-top: 14%;
+  padding: 2%;
+}
+footer{
+  display: grid;
+  grid-template-columns: 0% 33% 33% 33% 0%;
+  background-color: #004fac;
+  border-top: #006ce7 20px solid;
+  color: rgb(255, 255, 255);
+}
+.kontakty{
+grid-column: 2;
+margin-left: 20%;
+}
+.navigcka{
+  grid-column: 3;
+  margin-left: 20%;
+}
+.socky{
+  grid-column: 4;
+  margin-left: 20%;
+}
+.coprhgt{
+  padding: 5px;
+  background-color: #006ce7;
+  font-size: 16px;
+
+  text-align: center;
+  grid-column: 1 / span 5;
+}
+.footerNadpis{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 25px;
+
+}
+.fotodkazicek{
+  line-height: 1.5;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+.fotodkazicek:hover{
+ text-decoration: underline;
+}
+.kotaktyveci{
+
+  line-height: 1.3;
+  margin-bottom: 3%;
+}
+.aodkaz{
+  color: white;
+  
+}
+
+}

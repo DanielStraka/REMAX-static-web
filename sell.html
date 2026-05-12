@@ -1,0 +1,124 @@
+<!DOCTYPE html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="sell.css" media="all">
+    <link rel="stylesheet" href="print.css" media="print">
+    <title>Prodat nemovitost | REMAX</title>
+    <link rel="icon" href="images/remaxlogo.webp" type="image/icon type">
+</head>
+<body>
+  <header>
+    <a class="amalickost" href="index.html"><img class="logo" src="images/remaxlogo.webp" alt="obrázek loga"></a>
+      <div class="navBar">
+          <a class="odkaz" href="index.html">Domů</a>
+          <a class="odkaz" href="buy.html">Koupit</a>
+          <a class="odkaz" href="sell.html">Prodat</a>
+          <a class="odkaz" href="offices.html">Kanceláře</a>
+          <a class="odkaz" href="kontakt.html">Kontakt</a>        
+      </div>
+  </header>
+      <section id="infoNemovitost">
+        <div class="sellcontent">
+
+          <div class="sellpictures">
+            <div class="picInfoON">
+              <img src="images/navigatorON.png" alt="obrázek postavy">
+              <div>Nemovitost</div>
+            </div>
+            <div class="InfoLine">
+              <svg height="50" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="50" x2="100%" y2="50" style="stroke:rgba(134, 134, 134, 0.473);;stroke-width:4px" />
+              </svg> 
+            </div>
+            <div class="picInfoOFF">
+              <img src="images/userinfo.png" alt="obrázek listu">
+              <div>Kontakt na Vás</div>
+            </div>
+          </div>
+
+            <form action="" class="prodatform">
+              <div class="formLeft">
+                <label for="typ">Typ nemovitosti:</label><br>
+                <select id="typ" name="typ" ><br>
+                  <option value="#"></option>
+                  <option value="Dům">Dům</option>
+                  <option value="Byt">Byt</option>
+                  <option value="Kancelář">Kancelář</option>
+                  <option value="Pozemek">Pozemek</option>
+                </select><br><br>
+                <label for="Velikost">Velikost(m²):</label><br>
+                <input type="number" id="Velikost" name="Velikost" size="100"><br>
+              </div>
+              <div class="formRight">
+                <label for="Město">Město:</label><br>
+                <input type="text" id="Město" name="Město" size="50"><br><br>
+                <label for="Ulice">Ulice:</label><br>
+                <input type="text" id="Ulice" name="Ulice" ><br>
+              </div>
+              <label for="w3review">Popis nemovitosti:</label><br>
+              <textarea class="PopisFull" id="w3review" name="w3review" rows="5" cols="50"></textarea><br>
+              <a class="Nextform" href="#infoClovek" onclick="showSection('infoClovek')">Pokračovat ></a>      
+            </form>
+
+        </div>
+      </section>
+      <section id="infoClovek" class="hidden">
+        <div class="sellcontent">
+
+          <div class="sellpictures">
+            <div class="picInfoOFFafter">
+              <img src="images/navigatorON.png" alt="obrázek postavy">
+              <div>Nemovitost</div>
+            </div>
+            <div class="InfoLine">
+              <svg height="50" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="50" x2="100%" y2="50" style="stroke:#004fac;stroke-width:4px" />
+              </svg> 
+            </div>
+            <div class="picInfoON">
+              <img src="images/userinfoON.png" alt="obrázek listu">
+              <div>Kontakt na Vás</div>
+            </div>
+          </div>
+
+          <form action="" class="zakaznikform">
+            <label for="Jmeno">Jméno a Příjmení:</label>
+            <br>
+            <input type="text" id="Jmeno" name="Jmeno"> 
+            <br>
+            <br>
+            <label for="mail">E-mail:</label>
+            <br>
+            <input type="email" id="mail" name="mail"> 
+            <br>
+            <br>
+            <label for="phone">Telefon:</label>
+            <br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> 
+            <br>
+            <br>
+            <div class="a">
+              <a class="kontaktnext" href="#Hotovo" onclick="showSection('Hotovo')">Odeslat ></a>
+            </div>
+          </form>
+        </div>
+        </section>
+        <section id="Hotovo" class="hidden">
+          <div class="sellcontent">
+              <div class="complete">
+                <div>
+                  <img class="mage" src="images/check.png" alt="obrázek fajfka">
+                  <div class="CompleteHead">A je to!</div>
+                  <div class="Cempletesmall">Děkujeme za odeslání formuláře! Vaše údaje jsme úspěšně přijali, nechte vše na nás – naši experti se vám brzy ozvou.</div>
+                </div>
+                <div class="butt">
+                  <a class="houm" href="index.html">Domů</a>
+                </div>
+              </div>
+          </div>
+      </section>
+<script src="script.js"></script>
+</body>
+</html>

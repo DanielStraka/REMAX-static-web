@@ -1,0 +1,281 @@
+@media only screen and (min-width: 801px){
+    .hidden {
+        display: none;
+    }
+    .EstateHeader{
+        text-align: center;
+        font-size: 35px;
+        border-bottom: 5px solid #DC143C;
+        color: #004fac;
+        padding-bottom: 2px;
+        margin-left: 38%;
+        margin-right: 38%;
+        font-weight: bold;
+    }
+    .naviga{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    }
+    .prvek{
+        margin-top: 30px;
+        border: black 1px solid;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .prvekdom{
+        grid-column: 1;
+        background-image: url('images/DomNahled.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .poddum{
+        padding: 15% 1% 15% 1%;
+        border:1px solid rgb(0, 0, 0,.6) ;
+        background-color: rgb(0, 0, 0,.6);
+    }
+    .odkazdomy{
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    }
+    .prveklux{
+        grid-column: 2;
+        background-image: url('images/VillaNahled.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .prvekCha{
+        grid-column: 3;
+        background-image: url('images/ChataNahled.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .prvekkan{
+        grid-column: 4;
+        background-image: url('images/KancelarNahled.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .podlux{
+        padding: 15% 3% 15% 3%;
+        border:1px solid rgb(0, 0, 0,.6) ;
+        background-color: rgb(0, 0, 0,.6);
+    }
+    .podcha{
+        padding: 15% 1% 15% 1%;
+        border:1px solid rgb(0, 0, 0,.6) ;
+        background-color: rgb(0, 0, 0,.6);
+    }
+    .podkan{
+        padding: 15% 1% 15% 1%;
+        border:1px solid rgb(0, 0, 0,.6) ;
+        background-color: rgb(0, 0, 0,.6);
+    }
+    .sekce4{
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(2,50%);
+       margin-bottom: 60px;
+    }
+    .sekce4 a{
+        text-decoration: none;
+    }
+    .sekce4 img{
+        width: 100%;
+        height: auto;
+    }
+    .clan1{
+        margin:3%;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .clan2{
+        margin:3%;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .clan3{
+        margin:3%;
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .clan4{
+        margin:3%;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .clan5{
+        margin:3%;
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .clan6{
+        margin:3%;
+        grid-column: 4;
+        grid-row: 2;
+    }
+    .nadpis{
+        margin-top: 10px;
+       color:#004fac;
+       font-weight: bold;
+       font-size: 26px;
+    }
+    .podmadpis{
+        margin-top: 5px;
+        font-size: 22px;
+        color:#DC143C
+    }
+    .obsah{
+        margin-top: 20px;
+        font-size: 18px;
+        color:rgb(134, 134, 134);
+    }
+}
+
+@media only screen and (max-width: 800px){
+.hidden {
+    display: none;
+}
+.EstateHeader{
+    text-align: center;
+    font-size: 35px;
+    border-bottom: 5px solid #DC143C;
+    color: #004fac;
+    padding-bottom: 2px;
+    margin-left: 38%;
+    margin-right: 38%;
+    font-weight: bold;
+}
+.naviga{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+}
+.prvek{
+    margin-top: 30px;
+    border: black 1px solid;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.prvekdom{
+    grid-column: 1;
+    background-image: url('images/DomNahled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.poddum{
+    padding: 15% 1% 15% 1%;
+    border:1px solid rgb(0, 0, 0,.6) ;
+    background-color: rgb(0, 0, 0,.6);
+}
+.odkazdomy{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.prveklux{
+    grid-column: 2;
+    background-image: url('images/VillaNahled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.prvekCha{
+    grid-column: 3;
+    background-image: url('images/ChataNahled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.prvekkan{
+    grid-column: 4;
+    background-image: url('images/KancelarNahled.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.podlux{
+    padding: 15% 3% 15% 3%;
+    border:1px solid rgb(0, 0, 0,.6) ;
+    background-color: rgb(0, 0, 0,.6);
+}
+.podcha{
+    padding: 15% 1% 15% 1%;
+    border:1px solid rgb(0, 0, 0,.6) ;
+    background-color: rgb(0, 0, 0,.6);
+}
+.podkan{
+    padding: 15% 1% 15% 1%;
+    border:1px solid rgb(0, 0, 0,.6) ;
+    background-color: rgb(0, 0, 0,.6);
+}
+.sekce4{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 0% 33% 33% 33% 0%;
+    grid-template-rows: repeat(2,50%);
+   margin-bottom: 60px;
+}
+.sekce4 a{
+    text-decoration: none;
+}
+.sekce4 img{
+    width: 100%;
+    height: auto;
+}
+.clan1{
+    margin:3%;
+    grid-column: 2;
+    grid-row: 1;
+}
+.clan2{
+    margin:3%;
+    grid-column: 3;
+    grid-row: 1;
+}
+.clan3{
+    margin:3%;
+    grid-column: 4;
+    grid-row: 1;
+}
+.clan4{
+    margin:3%;
+    grid-column: 2;
+    grid-row: 2;
+}
+.clan5{
+    margin:3%;
+    grid-column: 3;
+    grid-row: 2;
+}
+.clan6{
+    margin:3%;
+    grid-column: 4;
+    grid-row: 2;
+}
+.nadpis{
+    margin-top: 10px;
+   color:#004fac;
+   font-weight: bold;
+   font-size: 20px;
+}
+.podmadpis{
+    margin-top: 5px;
+    font-size: 16px;
+    color:#DC143C
+}
+.obsah{
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(134, 134, 134);
+}
+}
