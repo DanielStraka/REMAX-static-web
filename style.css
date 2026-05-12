@@ -3,6 +3,14 @@
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.above-fold{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .logo{
   width: 150;
@@ -28,20 +36,27 @@ color: #ff0000;
   color: #DC143C;
 }
 header{
+    flex-shrink: 0;
     margin-left: 3%;
     margin-right: 3%;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 100%;
 }
+.banner-section{
+    flex: 1;
+    min-height: 0;
+}
 .Homepg{
     background-image: url('images/HomePage.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px;
-    padding-top: 12.5%;
-    padding-bottom: 12.5%;
-
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 .fortpageTop{
     padding: 10px;
@@ -52,8 +67,8 @@ header{
     text-align: left;
     color: #FAF9F6;
     font-size: 60px;
-    
-    
+
+
 }
 .fortpageBottom{
     padding: 10px;
@@ -67,43 +82,46 @@ header{
 }
 .numbersWhole{
     display: flex;
-    justify-content: center;
-
+    flex-shrink: 0;
+    width: 100%;
 }
 .numbersItems{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 6%;
-    padding-right: 6%;
-    border: solid  2px;
+    flex: 1;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: solid 2px;
     border-color: rgb(199, 199, 199);
-    text-align: center; 
+    text-align: center;
+}
+.numbersItems img{
+    max-height: 48px;
+    width: auto;
 }
 .numbersText{
     display: flex;
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .numbersHeader{
     color: #DC143C;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
 
 }
 .numbersParag{
-    font-size: 25px;
+    font-size: 30px;
     color: #004fac;
 }
 .foryou{
   margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
-  
+
 }
 .foryouheader{
-  padding: 3px;
-  margin-left: 5%;
-  margin-right: 70%;
+  padding: 4px 8px;
+  margin-left: 3%;
+  width: fit-content;
   background-color: #DC143C;
   color: white;
   font-size: 32px;
@@ -301,11 +319,12 @@ button {
   grid-column: 4;
  }
  .aboutusheader{
-  margin-right: 70%;
+  width: fit-content;
   border-bottom: 3px white solid;
   grid-column: 2;
   color: #FAF9F6;
-  font-size: 40px;
+  font-size: 32px;
+  padding: 4px 8px;
  }
  .userrew {
   background-color: rgba(243, 244, 246, 1);
@@ -366,8 +385,8 @@ button {
   font-size: 32px;
   color: white;
   background-color: #DC143C;
-  margin-right: 65%;
-  padding: 4px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .award{
   padding-top: 2%;
@@ -406,11 +425,11 @@ button {
 .maklerBighead{
   grid-column: 2 / span 2;
   grid-row: 1;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   background-color: #DC143C;
-    margin-right: 80%;
-  padding: 1px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .maklertit{
 padding: 5px;
@@ -449,54 +468,76 @@ margin-right: 15%;
 }
 footer{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #004fac;
-  border-top: #006ce7 20px solid;
+  border-top: #DC143C 5px solid;
   color: rgb(255, 255, 255);
+  padding: 40px 8%;
+  gap: 40px;
 }
 .kontakty{
-grid-column: 2;
-margin-left: 20%;
+  grid-column: 1;
 }
 .navigcka{
-  grid-column: 3;
-  margin-left: 20%;
+  grid-column: 2;
 }
 .socky{
-  grid-column: 4;
-  margin-left: 20%;
+  grid-column: 3;
 }
 .coprhgt{
-  padding: 5px;
-  background-color: #006ce7;
-  font-size: 16px;
-
+  padding: 14px;
+  font-size: 14px;
   text-align: center;
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 3;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.7);
 }
 .footerNadpis{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 25px;
-
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 14px;
 }
 .fotodkazicek{
-  line-height: 1.5;
+  display: block;
+  line-height: 1.6;
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.2s;
 }
 .fotodkazicek:hover{
- text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 .kotaktyveci{
-
-  line-height: 1.3;
-  margin-bottom: 3%;
+  line-height: 1.8;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
 }
 .aodkaz{
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.aodkaz:hover{
   color: white;
-  
+  text-decoration: underline;
+}
+.socky a{
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 6px;
+  opacity: 0.8;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.socky a:hover{
+  opacity: 1;
+  transform: translateY(-2px);
+}
+.socky img{
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1);
 }
 
 }
@@ -507,34 +548,33 @@ margin-left: 20%;
     background-color: white;
   }
 .logo{
-  width: 150;
+  width: 150px;
   height: auto;
 }
 .amalickost{
-  margin-right: 100%;
+  display: flex;
+  justify-content: center;
 }
 .navBar{
-display: flex;
-justify-content: right;
-color: #ff0000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #ff0000;
 }
 .odkaz{
-   text-decoration: none;
-    padding-top: 26px;
-    font-size: 19px;
-    padding-left: 50px;
-    color: #004fac;
-
+  text-decoration: none;
+  padding: 8px 14px;
+  font-size: 16px;
+  color: #004fac;
 }
 .odkaz:hover{
   color: #DC143C;
 }
 header{
-    margin-left: 3%;
-    margin-right: 3%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Homepg{
     background-image: url('images/HomePage.webp');
@@ -885,11 +925,11 @@ button {
 .maklerBighead{
   grid-column: 2 / span 2;
   grid-row: 1;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   background-color: #DC143C;
-    margin-right: 80%;
-  padding: 1px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .maklertit{
 padding: 5px;
@@ -927,55 +967,68 @@ margin-right: 15%;
   padding: 2%;
 }
 footer{
-  display: grid;
-  grid-template-columns: 0% 33% 33% 33% 0%;
+  display: flex;
+  flex-direction: column;
   background-color: #004fac;
-  border-top: #006ce7 20px solid;
+  border-top: #DC143C 5px solid;
   color: rgb(255, 255, 255);
+  padding: 30px 8%;
 }
 .kontakty{
-grid-column: 2;
-margin-left: 20%;
+  margin-bottom: 24px;
 }
 .navigcka{
-  grid-column: 3;
-  margin-left: 20%;
+  margin-bottom: 24px;
 }
 .socky{
-  grid-column: 4;
-  margin-left: 20%;
+  margin-bottom: 24px;
 }
 .coprhgt{
-  padding: 5px;
-  background-color: #006ce7;
-  font-size: 16px;
-
+  padding: 14px 0;
+  font-size: 13px;
   text-align: center;
-  grid-column: 1 / span 5;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.7);
 }
 .footerNadpis{
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 25px;
-
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .fotodkazicek{
-  line-height: 1.5;
+  display: block;
+  line-height: 1.6;
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
 }
 .fotodkazicek:hover{
- text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 .kotaktyveci{
-
-  line-height: 1.3;
-  margin-bottom: 3%;
+  line-height: 1.8;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
 }
 .aodkaz{
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+.aodkaz:hover{
   color: white;
-  
+  text-decoration: underline;
+}
+.socky a{
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 6px;
+  opacity: 0.8;
+}
+.socky img{
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1);
 }
 
 }

@@ -2,21 +2,26 @@
     .sek1{
         margin-left: 10%;
         margin-right: 10%;
-        border:rgb(199, 199, 199) solid 1px;
+        border: rgb(199, 199, 199) solid 1px;
         display: grid;
         grid-template-columns: 65% 35%;
+        grid-template-rows: 1fr;
         box-shadow: 15px 20px 25px #b8b6b6;
         margin-bottom: 60px;
         background-color: white;
+        overflow: hidden;
     }
     .sek2{
         margin-left: 10%;
         margin-right: 10%;
-        border:rgb(199, 199, 199) solid 1px;
+        border: rgb(199, 199, 199) solid 1px;
         display: grid;
         grid-template-columns: 35% 65%;
+        grid-template-rows: 1fr;
         box-shadow: 15px 20px 25px #b8b6b6;
         margin-bottom: 60px;
+        background-color: white;
+        overflow: hidden;
     }
     .pob1{
         margin-top: 3%;
@@ -30,15 +35,14 @@
     }
     .pobocka{
         font-size: 15px;
-      
     }
     .container{
-        background-color: rgba(243, 244, 246, 1); 
+        background-color: rgba(243, 244, 246, 1);
         padding-top: 50px;
         padding-bottom: 1px;
     }
     .containerwhite{
-        background-color: white; 
+        background-color: white;
         padding-top: 50px;
         padding-bottom: 1px;
     }
@@ -46,16 +50,22 @@
         text-decoration: none;
     }
     .pobockaObrazek1{
-        width: 500px;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         grid-column: 2;
+        display: block;
         border-right: #DC143C solid 33px;
+        box-sizing: border-box;
     }
     .pobockaObrazek2{
-        width: 500px;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         grid-column: 1;
+        display: block;
         border-left: #DC143C solid 33px;
+        box-sizing: border-box;
     }
     .PobockaHEad{
         font-size: 35px;
