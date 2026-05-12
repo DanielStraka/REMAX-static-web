@@ -3,6 +3,14 @@
   body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.above-fold{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 .logo{
   width: 150;
@@ -28,20 +36,27 @@ color: #ff0000;
   color: #DC143C;
 }
 header{
+    flex-shrink: 0;
     margin-left: 3%;
     margin-right: 3%;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 100%;
 }
+.banner-section{
+    flex: 1;
+    min-height: 0;
+}
 .Homepg{
     background-image: url('images/HomePage.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px;
-    padding-top: 12.5%;
-    padding-bottom: 12.5%;
-
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 .fortpageTop{
     padding: 10px;
@@ -52,8 +67,8 @@ header{
     text-align: left;
     color: #FAF9F6;
     font-size: 60px;
-    
-    
+
+
 }
 .fortpageBottom{
     padding: 10px;
@@ -67,43 +82,46 @@ header{
 }
 .numbersWhole{
     display: flex;
-    justify-content: center;
-
+    flex-shrink: 0;
+    width: 100%;
 }
 .numbersItems{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 6%;
-    padding-right: 6%;
-    border: solid  2px;
+    flex: 1;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: solid 2px;
     border-color: rgb(199, 199, 199);
-    text-align: center; 
+    text-align: center;
+}
+.numbersItems img{
+    max-height: 48px;
+    width: auto;
 }
 .numbersText{
     display: flex;
     justify-content: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .numbersHeader{
     color: #DC143C;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
 
 }
 .numbersParag{
-    font-size: 25px;
+    font-size: 30px;
     color: #004fac;
 }
 .foryou{
   margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
-  
+
 }
 .foryouheader{
-  padding: 3px;
-  margin-left: 5%;
-  margin-right: 70%;
+  padding: 4px 8px;
+  margin-left: 3%;
+  width: fit-content;
   background-color: #DC143C;
   color: white;
   font-size: 32px;
@@ -301,11 +319,12 @@ button {
   grid-column: 4;
  }
  .aboutusheader{
-  margin-right: 70%;
+  width: fit-content;
   border-bottom: 3px white solid;
   grid-column: 2;
   color: #FAF9F6;
-  font-size: 40px;
+  font-size: 32px;
+  padding: 4px 8px;
  }
  .userrew {
   background-color: rgba(243, 244, 246, 1);
@@ -366,8 +385,8 @@ button {
   font-size: 32px;
   color: white;
   background-color: #DC143C;
-  margin-right: 65%;
-  padding: 4px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .award{
   padding-top: 2%;
@@ -406,11 +425,11 @@ button {
 .maklerBighead{
   grid-column: 2 / span 2;
   grid-row: 1;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   background-color: #DC143C;
-    margin-right: 80%;
-  padding: 1px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .maklertit{
 padding: 5px;
@@ -885,11 +904,11 @@ button {
 .maklerBighead{
   grid-column: 2 / span 2;
   grid-row: 1;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   background-color: #DC143C;
-    margin-right: 80%;
-  padding: 1px;
+  width: fit-content;
+  padding: 4px 8px;
 }
 .maklertit{
 padding: 5px;
