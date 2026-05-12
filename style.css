@@ -526,34 +526,33 @@ margin-left: 20%;
     background-color: white;
   }
 .logo{
-  width: 150;
+  width: 150px;
   height: auto;
 }
 .amalickost{
-  margin-right: 100%;
+  display: flex;
+  justify-content: center;
 }
 .navBar{
-display: flex;
-justify-content: right;
-color: #ff0000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #ff0000;
 }
 .odkaz{
-   text-decoration: none;
-    padding-top: 26px;
-    font-size: 19px;
-    padding-left: 50px;
-    color: #004fac;
-
+  text-decoration: none;
+  padding: 8px 14px;
+  font-size: 16px;
+  color: #004fac;
 }
 .odkaz:hover{
   color: #DC143C;
 }
 header{
-    margin-left: 3%;
-    margin-right: 3%;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Homepg{
     background-image: url('images/HomePage.webp');
